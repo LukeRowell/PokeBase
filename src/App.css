@@ -53,20 +53,18 @@ html, body {
   z-index: 1;
 }
 
-
 .modal {
   display: none;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content */
 .modal-content {
   position: relative;
   margin: auto;
@@ -107,8 +105,7 @@ html, body {
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -197,14 +194,6 @@ th {
   background-color: #e3e3e3;
 }
 
-tr {
-  height: 4vh;
-}
-
-td {
-
-}
-
 tr:nth-child(even) {
   background-color: #e3e3e3;
 }
@@ -233,24 +222,6 @@ div.list_scroll {
 iframe {
   height: 100%;
   width: 100%;
-}
-
-
-.InformationAndControls {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
-}
-
-.Controls {
-  display: grid;
-  grid-template-rows: 40px 2fr 2fr;
-  grid-template-columns: 1fr 1fr;
-}
-
-.Controls > h5 {
-  align-self: top;
-  justify-self: center;
 }
 
 .TypeButtons {
@@ -367,49 +338,3 @@ button:focus {
 .buttonWater {
   background-color: #3399FF;
 }
-
-/*
-.TypeButtons > div:nth-child(1n) {
-  background-color: red;	
-}
-
-.TypeButtons > div:nth-child(2n) {
-  background-color: green;
-}
-
-.TypeButtons > div {
-  border: 1px solid black;
-}
-
-.Container > div:nth-child(1n) {
-  background-color: yellow;	
-}
-
-.Container > div:nth-child(2n) {
-  background-color: blue;
-}
-
-.Content > div:nth-child(1n) {
-  background-color: purple;	
-}
-
-.Content > div:nth-child(2n) {
-  background-color: orange;
-}
-
-.Controls > div:nth-child(1n) {
-  background-color: grey;
-}
-
-.Controls > div:nth-child(2n) {
-  background-color: white;
-}
-
-.QueryResults > div:nth-child(1n) {
-  background-color: grey;
-}
-
-.QueryResults > div:nth-child(2n) {
-  background-color: white;
-}
-*/

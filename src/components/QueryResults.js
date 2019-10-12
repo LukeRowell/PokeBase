@@ -7,7 +7,7 @@ function QueryResults() {
                 <table className="labels" cellSpacing="0" cellPadding="0">
                     <thead>
                         <tr>
-                            <th height="40px" width="6%"> </th>
+                            <th width="6%"> </th>
                             <th width="4%">#</th>
                             <th width="20%">Name</th> 
                             <th width="10%">Type 1</th>

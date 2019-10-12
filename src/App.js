@@ -34,9 +34,9 @@ class App extends React.Component {
   }
 
   async getData(api_url) {
-    console.log(api_url);
     const db_response = await fetch(api_url);
     const db_json = await db_response.json();
+
     return db_json;
   }
 
@@ -54,7 +54,6 @@ class App extends React.Component {
     const oldBody = document.getElementById("body");
     const newBody = document.createElement('tbody');
     const resultsText = document.getElementById("resultsText");
-    console.log(data);
 
     resultsText.textContent = `${numResults} results (${resultsPercentage}% of all Pokémon)`;
 
