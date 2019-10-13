@@ -3,7 +3,7 @@
 }
 
 html, body {
-  background-color: green;
+  background-color: #CC0000;
   height: 100vh;
   overflow: hidden;
   margin: 0px;
@@ -171,10 +171,6 @@ html, body {
   display: grid;
   grid-template-rows: 43px auto;
   grid-template-columns: 1fr;
-}
-
-.labels {
-  background-color: green;
 }
 
 table.labels {
