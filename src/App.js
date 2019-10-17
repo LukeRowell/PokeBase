@@ -46,7 +46,7 @@ class App extends React.Component {
     const generationVal = this.state.generation;
     const sortVal = this.state.orderStat;
     const orderVal = (this.state.orderVal === "ascending" ? 1 : -1);
-    const api_url = `https://lr-database-server.herokuapp.com/pokebase/search/${sortVal},${type1Val},${type2Val},${generationVal},${orderVal}`;
+    const api_url = `https://lr-app-server.herokuapp.com/pokebase/search/${sortVal},${type1Val},${type2Val},${generationVal},${orderVal}`;
     const data = await this.getData(api_url);
     const numResults = parseInt(data.length, 10);
     const resultsPercentage = ((parseFloat(numResults / 807.0)) * 100).toFixed(2);
