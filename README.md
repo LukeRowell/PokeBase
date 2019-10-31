@@ -30,5 +30,6 @@ information from Bulbapedia displayed on the right.
 * [React](https://reactjs.org/)
 * [Express](https://expressjs.com/)
 * [PostgreSQL](https://www.postgresql.org/)
+* [Heroku](https://www.heroku.com/home)
 
 --For more details on the back-end see my [app_server](https://github.com/LukeRowell/app_server) repository--
