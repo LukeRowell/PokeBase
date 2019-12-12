@@ -25,6 +25,8 @@ information from Bulbapedia displayed on the right.
 
 --Search by name coming soon--
 
+--Generation 8 coming soon--
+
 ## Built With
 
 * [React](https://reactjs.org/)
