@@ -1,4 +1,5 @@
 import React from 'react';
+import bulbaIcon from '../img/bulbapedia_favicon.ico'
 
 function QueryResults() {
     return (
@@ -7,7 +8,11 @@ function QueryResults() {
                 <table className="labels" cellSpacing="0" cellPadding="0">
                     <thead>
                         <tr>
-                            <th width="6%"> </th>
+                            <th width="6%">
+                                <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page">
+                                    <img id="bulbapedia" src={bulbaIcon} alt={"bulbaIcon"}></img>
+                                </a>
+                            </th>
                             <th width="4%">#</th>
                             <th width="20%">Name</th> 
                             <th width="10%">Type 1</th>
